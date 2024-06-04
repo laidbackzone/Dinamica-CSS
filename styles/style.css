@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(https://gifdb.com/images/high/chill-night-glitch-pixel-art-jyasefmidungcb3c.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    position: static;
+    justify-content: center;
+    margin-top: 30vh;
+    line-height: 50px;
+}
+
+main div{
+    display: flex;
+    position: static;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, blueviolet, greenyellow);
+    border: 5px solid rgb(0,0,0);
+    z-index: 5;
+}
+
+
+#formulario{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main input{
+    border-radius: 5px;
+    margin: 5px;
+    line-height: 20px;
+}
+
+#submit{
+    width: 85px;
+    margin-left: 30px;
+}
+
+#submit:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+#olvidarcontrasena{
+    color: blue;
+    text-decoration: none;
+}
+
